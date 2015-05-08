@@ -1,0 +1,15 @@
+let greeting = "Welcome to Craps!"
+
+let instructions = "These will be the instructions for how to play craps."
+
+let dice1 =
+  let a = 1 and b = 6 in
+    Random.int (b - a + 1) + a
+
+let dice2 =
+  let a = 1 and b = 6 in
+    Random.int (b - a + 1) + a
+
+let dice_total = dice1 + dice2
+
+let dice_value = (dice1, dice2)
