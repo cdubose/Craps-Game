@@ -2,6 +2,8 @@ let greeting = "Welcome to Craps!"
 
 let instructions = "These will be the instructions for how to play craps."
 
+Random.self_init ()
+
 let dice1 =
   let a = 1 and b = 6 in
     Random.int (b - a + 1) + a
@@ -14,6 +16,7 @@ let dice_total = dice1 + dice2
 
 let dice_value = (dice1, dice2)
 
+let roll_command = read_line ()
 
 let read_input = function
   |  "roll" | "ROLL" | "Roll" -> print_string "function which rolls the dice and then displays each dice value and the total value of the roll"
