@@ -6,3 +6,5 @@ Future Versions/Modifications:
   2. betting system
   3. multiplayer version
   4. GUI version
+
+Implemented in OCaml
