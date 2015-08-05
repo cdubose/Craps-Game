@@ -7,4 +7,3 @@ Future Versions/Modifications:
   3. multiplayer version
   4. GUI version
 
-Implemented in OCaml 4.02.1
